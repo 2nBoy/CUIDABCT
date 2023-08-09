@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de Namoro</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-image: url('WhatsApp Image 2023-08-09 at 10.01.36.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+        }
+        h1 {
+            color: #ff6b6b;
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 20px;
+            margin-bottom: 25px;
+        }
+        button {
+            background-color: #ff8e71;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+            margin: 8px;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #ff6b6b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Quer ser meu amor? 😊❤️</h1>
+        <p>Já tá podendo pedir namoro de 3 meses? 🥰</p>
+        <button id="aceitarBtn">Sim, aceito! 😍😍😍😍</button>
+        <button id="aceitarBtn2">Claro, você é incrível! 😍😍😍😍</button>
+        <p class="emojis">(Não vale recusar, senão eu fujo e deixo você pagar a conta) 😊</p>
+    </div>
+
+    <script>
+        const aceitarBtn = document.getElementById('aceitarBtn');
+        const aceitarBtn2 = document.getElementById('aceitarBtn2');
+        aceitarBtn.addEventListener('click', () => {
+            alert('Desde a primeira vez que conversamos, senti algo por você que nunca havia sentido antes. Te amo, meu amor! 😘💕');
+        });
+        aceitarBtn2.addEventListener('click', () => {
+            alert('Desde a primeira vez que conversamos, senti algo por você que nunca havia sentido antes. Te adoro, minha pessoa especial! 😘😘');
+        });
+    </script>
+</body>
+</html>
